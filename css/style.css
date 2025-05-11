@@ -9757,3 +9757,11 @@ textarea.form-control {
     overflow: hidden; /* Ensures content doesn't overflow */
 }
 
+.skill{
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 0px;
+  margin-left: 0%;
+}
+
