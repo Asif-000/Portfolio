@@ -9315,11 +9315,11 @@ textarea.form-control {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 35% 45%;
   position: relative;
   display: block;
   width: 100%;
-  height: 180px; }
+  height: 170px; }
 
 .blog-entry {
   position: relative; }
@@ -9703,3 +9703,57 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.blog-entry {
+  border: 2px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Add some padding inside the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better appearance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  margin-bottom: 30px; /* Space between cards */
+  padding-bottom: auto; /* Allow content to dictate height */
+}
+
+.blog-entry:hover {
+  transform: scale(1.1); /* Slightly enlarge the card on hover */
+  box-shadow: 0 0 15px rgb(211, 211, 211);
+  border-color: #eded00;
+  
+}
+
+.btn-demo {
+  background-color: #ffc107; /* Primary blue color */
+  color: #000000; /* White text */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 10px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-demo:hover {
+  color: black;
+  background-color: #eded00; /* Darker blue on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.btn-code {
+  background-color: #6610f2; /* Secondary gray color */
+  color: #fff; /* White text */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 10px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.btn-code:hover {
+  color: black;
+  background-color: azure; /* Darker gray on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+.card-description {
+    height: 140px; /* Fixed height */
+    overflow: hidden; /* Ensures content doesn't overflow */
+}
+
